@@ -19,7 +19,7 @@ from sqlalchemy.dialects.firebird.base import VARCHAR
 from . import base  # noqa
 from . import fdb  # noqa
 from . import kinterbasdb  # noqa
-
+from . import firebirdsql
 
 base.dialect = dialect = fdb.dialect
 
